@@ -1,0 +1,29 @@
+.project-gallery {
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.project-gallery h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery-container {
+    display: flex;
+    overflow-x: auto;
+}
+
+.gallery-item {
+    margin-right: 15px;
+    flex: 0 0 auto;
+}
+
+.gallery-item img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.gallery-item p {
+    text-align: center;
+}
