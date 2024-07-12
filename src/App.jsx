@@ -27,7 +27,7 @@ const App = () => {
         url="https://www.ciptapelangi.id"
         image={Kantor}
       />
-      <Navbar /> {/* Add the Navbar component */}
+      <Navbar />
       <Header />
       <Main />
       <Footer />
