@@ -4,7 +4,7 @@ import Image1 from '../assets/img/tim.jpg';
 import Image2 from '../assets/img/pentingnya-digital.jpg';
 import Image3 from '../assets/img/digital-manufaktur.jpg';
 import Image4 from '../assets/img/kunci-sukses.jpg';
-import Image5 from '../assets/img/kretavitas-dan-inovasi.jpeg';
+import Image5 from '../assets/img/kreativitas-dan-inovasi-digital.jpeg';
 import Image6 from '../assets/img/pelayanan.jpg';
 
 const articles = [
