@@ -1,39 +1,48 @@
 /* FAQSection.css */
+
 .faq-section {
-    background-color: #fff;
-    padding: 40px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
 }
 
 .faq-section h3 {
-    text-align: center;
-    margin-bottom: 30px;
+    color: #0077cc;
+    margin-bottom: 20px;
+    font-size: 1.8em;
 }
 
 .faq-container {
     max-width: 800px;
-    /* Atur lebar maksimal sesuai kebutuhan */
-    margin: auto;
+    margin: 0 auto;
+    text-align: left;
 }
 
 .faq-item {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    padding: 15px;
+    transition: all 0.3s ease;
+}
+
+.faq-item.active {
+    background: #e6f7ff;
 }
 
 .faq-question {
-    padding: 15px;
+    font-weight: bold;
     cursor: pointer;
-    background-color: #f7f7f7;
+    color: #0077cc;
 }
 
 .faq-answer {
-    padding: 15px;
+    margin-top: 10px;
     display: none;
-    /* Sembunyikan jawaban secara default */
+    color: #555;
 }
 
 .faq-item.active .faq-answer {
     display: block;
-    /* Tampilkan jawaban untuk item aktif */
 }

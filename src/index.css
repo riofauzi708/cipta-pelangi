@@ -167,6 +167,11 @@ p {
   text-align: center;
 }
 
+.product-section h2 {
+  color: #0077cc;
+  font-size: 2rem;
+}
+
 .slick-slide img {
   display: block;
   margin-left: auto;
@@ -180,8 +185,6 @@ p {
 .product-section p {
   margin-bottom: 30px;
 }
-
-
 
 /* Service Section */
 .service-section {
