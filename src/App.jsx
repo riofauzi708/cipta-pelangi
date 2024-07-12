@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { FaWhatsapp, FaEnvelope, FaSms } from 'react-icons/fa';
 import SEO from './seo.jsx';
 import './index.css';
 import ArticleList from './components/ArticleList.jsx';
@@ -8,8 +7,9 @@ import ProjectGallery from './components/ProjectGallery.jsx';
 import Testimonials from './components/Testimonials.jsx';
 import FAQSection from './components/FaqSection.jsx';
 import Kantor from './assets/img/kantor.jpg';
-import Layanan from './assets/img/layanan.jpg';
 import Tim from './assets/img/tim.jpg';
+import ServiceSection from './components/ServiceSection.jsx';
+import Navbar from './components/Navbar.jsx';
 
 const App = () => {
   const [animationClass, setAnimationClass] = useState('');
@@ -27,6 +27,7 @@ const App = () => {
         url="https://www.ciptapelangi.id"
         image={Kantor}
       />
+      <Navbar /> {/* Add the Navbar component */}
       <Header />
       <Main />
       <Footer />
@@ -53,29 +54,6 @@ const Main = () => (
     <Testimonials />
     <FAQSection />
   </main>
-);
-
-const ServiceSection = () => (
-  <section className="service-section">
-    <h2>Layanan Profesional Kami</h2>
-    <p>Dengan tim ahli kami, kesuksesan digital Anda adalah jaminan.</p>
-    <ContactButtons />
-    <img src={Layanan} alt="Layanan PT Cipta Pelangi" className="service-image" loading="lazy" />
-  </section>
-);
-
-const ContactButtons = () => (
-  <div className="contact-buttons">
-    <a href="https://wa.me/NOMOR_WHATSAPP" className="contact-button whatsapp-button">
-      <FaWhatsapp />
-    </a>
-    <a href="mailto:EMAIL_ANDA" className="contact-button email-button">
-      <FaEnvelope />
-    </a>
-    <a href="sms:NOMOR_TELEPON" className="contact-button sms-button">
-      <FaSms />
-    </a>
-  </div>
 );
 
 const Footer = () => (

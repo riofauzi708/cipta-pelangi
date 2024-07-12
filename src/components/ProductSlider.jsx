@@ -14,7 +14,7 @@ const ProductSlider = () => {
         dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 2,
+        slidesToShow: 3,
         slidesToScroll: 2,
         autoplay: true,
         autoplaySpeed: 2000,
